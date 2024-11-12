@@ -1,0 +1,202 @@
+.all{
+    background-color:cornsilk;
+}
+.mainh1{
+    text-shadow: 3px 2px red;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    box-shadow: 7px 6px 9px burlywood ;
+    border-radius: 5px;
+    display: flex; 
+    margin-left: 20px;
+}
+.p{
+    width: 1000px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.colum{
+    column-gap: 40px;
+    display: flex;
+}
+.abtc{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left: 600px;
+}
+a {
+    width: max-content;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+.colum a::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.colum :hover::after{
+    transform: scaleX(1);
+}
+/*section timee!!*/
+.mainh1s{
+    font-size: 64px;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec{
+    display: flex;
+}
+.why{
+    width: 1000px;
+}
+.free{
+    width: 1000px;
+    margin-left: 60px;
+}
+.inp1{
+    width: 400px;
+}
+.inp2{
+    width: 400px;
+}
+.footer{
+    background-color: burlywood;
+    width: 100%;
+    height: 170px;
+    border: 3px black solid;
+    border-radius: 8px;
+}
+.ew {
+    background-color: burlywood;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    column-gap:15px;
+    margin-left: 0px;
+    justify-content: space-around;
+    text-decoration-line: none;
+}
+.icons{
+    display: flex;
+}
+.why_img{
+    display: flex;
+}
+.free_img{
+    display: flex;
+}
+/*media*/
+
+
+@media screen and (max-width: 480px) {
+    .all{
+        background-color:whitesmoke;
+}
+.mainh1{
+    padding-top: 20px;
+    font-size: 32px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    box-shadow: 7px 6px 9px 4px darkgray;
+    border-radius: 5px;
+    display:block;
+    margin-left: 0px;
+}
+.colum{
+    column-gap: 20px;
+    
+}
+.abtc{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    margin-left: 00px;
+}
+.colum{
+    width: max-content;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+.colum::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.colum:hover::after{
+    transform: scaleX(1);
+}
+/*section timee!!*/
+.mainh1s{
+    font-size: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.p{
+    font-size: 16px;
+    width: 360px;
+    margin-left: 0px;
+}
+.why{
+    width: 300px;
+}
+.free{
+    width: 400px;
+    margin-left: 0px;
+    font-size: 19px;
+}
+.sec{
+    width: 400px;
+}
+.inp1{
+    width: 350px;
+}
+.inp2{
+    width: 350px;
+}
+.footer{
+    border: 2px solid black;
+    background-color: rgb(220, 219, 219);
+    width: 100%;
+    height: 170px;
+}
+.mainh11{
+    font-size: 20px;
+}
+.icons{
+    background-color: rgb(220, 219, 219) ;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    column-gap:15px;
+    margin-left: 0px;
+}
+.img{
+    height: 30px;
+    display: none;
+}
+
+}
